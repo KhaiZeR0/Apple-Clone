@@ -20,6 +20,13 @@ body {
   font-size: 14px;
 }
 
+#super
+{
+ vertical-align: super;
+ font-size: medium;
+ font-size: small;
+}
+
 a {
   text-decoration: none;
   font-weight: 300;
@@ -85,7 +92,7 @@ header ul li img {
 }
 
 .top__title {
-  margin-top: 52px;
+  margin-top: 53px;
   color: var(--white);
   text-align: center;
   z-index: 3;
