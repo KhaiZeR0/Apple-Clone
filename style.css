@@ -558,26 +558,29 @@ h5 {
   margin-left: 5px;
 }
 
-.top-footer {
+.top__note {
   width: 100%;
-  height: 810px;
   background: var(--white);
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
-.footer__wrapper {
+.note__wrapper {
   width: 970px;
 }
 
-.top-footer ul {
+.note__wrapper ul {
   font-size: 12px;
   list-style: none;
   color: #86868b;
-  border-bottom: 1px solid var(--greyLight);
+  
 }
 
-.top-footer ul li {
+.top__note ul li {
   margin: 15px 0;
   letter-spacing: 0.1px;
 }
@@ -592,7 +595,7 @@ h5 {
 }
 
 #slider img {
-  height: 550px;
+  height: 500px;
 }
 
 input[type=radio] {
