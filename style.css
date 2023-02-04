@@ -696,6 +696,7 @@ input[type="checkbox"] {
 .footer-col h3 {
     color: #333;
     font-size: 14px;
+    font-weight: 500;
     position: relative;
     z-index: 1;
     background: #f2f2f2;
@@ -751,7 +752,16 @@ input[type="checkbox"]:checked+.col-section h3::after {
 .nowrap {
     white-space: nowrap;
 }
-
+.footer-more-ways a {
+  color: rgb(0, 94, 255);
+}
+.Languages a {
+  color: #86868b;
+  font-weight: 500;
+}
+.note__wrapper ul li a {
+  color: #000;
+}
 /* Media Queries */
 @media (max-width: 1330px) {
   #slider img {
